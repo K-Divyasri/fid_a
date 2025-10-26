@@ -1,0 +1,129 @@
+ LCModel (Version 6.3-1R)
+ onepulse 15x17_ftSpec_smooth_lcm
+
+$$CONC 26 lines in following concentration table = NCONC+1
+    Conc.  %SD /Cr+PCr  Metabolite                                         
+    0.000 999%   0.000 Ala                                                 
+ 6.76E-10 106%   2.880 Asp                                                 
+    0.000 999%   0.000 Cr                                                  
+    0.000 999%   0.000 GABA                                                
+    0.000 999%   0.000 Glc                                                 
+ 3.08E-09  19%  13.139 Gln                                                 
+    0.000 999%   0.000 Glu                                                 
+ 1.08E-09 152%   4.609 Glyc                                                
+    0.000 999%   0.000 GPC                                                 
+    0.000 999%   0.000 GSH                                                 
+ 1.30E-10 999%   0.553 Ins                                                 
+    0.000 999%   0.000 Lac                                                 
+ 2.16E-10  91%   0.922 NAAG                                                
+    0.000 999%   0.000 NAA                                                 
+    0.000 999%   0.000 PCh                                                 
+ 2.35E-10 119%   1.000 PCr                                                 
+ 1.38E-09  66%   5.884 PE                                                  
+ 1.46E-10 195%   0.621 Scyllo                                              
+ 3.73E-10 182%   1.591 Ser                                                 
+ 4.94E-10 197%   2.104 Tau                                                 
+    0.000 999%   0.000 GPC+PCh                                             
+ 2.16E-10  91%   0.922 NAA+NAAG                                            
+ 1.21E-09  41%   5.161 Ins+Glyc                                            
+ 2.35E-10 119%   1.000 Cr+PCr                                              
+ 3.08E-09  19%  13.139 Glu+Gln                                             
+
+$$MISC  6 lines in following misc. output table
+  FWHM = 0.101 ppm    S/N =   3                                            
+  Data shift = 0.391 ppm                                                   
+  Ph: -58 deg     -50.3 deg/ppm                                            
+  alphaB,S = 8.2E-01,   5.1E+01                                            
+    9 spline knots.   Ns = 5(1)                                            
+  ( 6) 4 infls.   ( 3) 1 extrs.                                            
+
+$$DIAG  8 lines in following diagnostic table:
+   1 ERROR     MYBASI 10                                                  
+   4 ERRORS    AREABA  3                                                  
+   1 warning   STARTV 25                                                  
+   1 info      STARTV 20                                                  
+   3 info's    TWOREG  8                                                  
+   1 info      RFALSI 11                                                  
+   1 info      TWOREG  9                                                  
+   1 warning   FINOUT  8                                                  
+
+$$INPU 79 lines in following table of input changes:
+ATTH2O=1.0                                                                
+FILH2O='/mnt/c/Users/divya/Downloads/Lexar/DataFo                         
+   rDivya/meas_MID01415_FID95676_lb_RosetteSpinEc                         
+   ho_ek_v1a_lcm/15x17_ftSpec_smooth_lcm_w'                               
+DOWS=T                                                                    
+DOECC=T                                                                   
+CHRATO(8)='MM9/MM1 = 1.40 +- 0.7'                                         
+CHRATO(7)='MM8/MM1 = 0.33 +- 0.17'                                        
+CHRATO(6)='MM7/MM1 = 0.54 +- 0.27'                                        
+CHRATO(5)='MM6/MM1 = 0.63 +- 0.16'                                        
+CHRATO(4)='MM5/MM1 = 3.16 +- 0.79'                                        
+CHRATO(3)='MM4/MM1 = 1.29 +- 1.03'                                        
+CHRATO(2)='MM3/MM1 = 1.05 +- 0.63'                                        
+CHRATO(1)='MM2/MM1 = 0.51 +- 0.17'                                        
+NRATIO=8                                                                  
+NORATO(7)='-CrCH2/totCr'                                                  
+NORATO(6)='MM17/MM09*'                                                    
+NORATO(5)='MM14/MM09*'                                                    
+NORATO(4)='MM12/MM09*'                                                    
+NORATO(3)='MM20/MM09*'                                                    
+NORATO(2)='Lip20/Lip13*'                                                  
+NORATO(1)='Lip09/Lip13*'                                                  
+NNORAT=7                                                                  
+CHOMIT(14)='-CrCH2'                                                       
+CHOMIT(13)='MM17'                                                         
+CHOMIT(12)='MM14'                                                         
+CHOMIT(11)='MM12'                                                         
+CHOMIT(10)='MM20'                                                         
+CHOMIT(9)='Lip20'                                                         
+CHOMIT(8)='MM09'                                                          
+CHOMIT(7)='Lip09'                                                         
+CHOMIT(6)='Lip13d'                                                        
+CHOMIT(5)='Lip13c'                                                        
+CHOMIT(4)='Lip13b'                                                        
+CHOMIT(3)='Lip13a'                                                        
+CHOMIT(2)='bHG'                                                           
+CHOMIT(1)='bHB'                                                           
+NOMIT=14                                                                  
+NEACH=999                                                                 
+DKNTMN=0.3                                                                
+WDLINE(1)=0.025                                                           
+RFWHM=0.15                                                                
+PPMEND=0.2                                                                
+PPMST=4.25                                                                
+LPS=8                                                                     
+DOREFS(1)=T                                                               
+FILPRI='/mnt/c/Users/divya/Downloads/Lexar/DataFo                         
+   rDivya/meas_MID01415_FID95676_lb_RosetteSpinEc                         
+   ho_ek_v1a_lcm/15x17_ftSpec_smooth_lcm_out/15x1                         
+   7_ftSpec_smooth_lcm.print'                                             
+LCSV=11                                                                   
+LCOORD=9                                                                  
+LTABLE=7                                                                  
+LPRINT=6                                                                  
+ECHOT=20                                                                  
+NUNFIL=576                                                                
+DELTAT=0.00063000                                                         
+HZPPPM=123.25                                                             
+FILBAS='/mnt/c/Users/divya/Downloads/linux-send/f                         
+   ida2/new/3T_SpinEchoRosetteMRSI_TE20.basis'                            
+FILCSV='/mnt/c/Users/divya/Downloads/Lexar/DataFo                         
+   rDivya/meas_MID01415_FID95676_lb_RosetteSpinEc                         
+   ho_ek_v1a_lcm/15x17_ftSpec_smooth_lcm_out/15x1                         
+   7_ftSpec_smooth_lcm.csv'                                               
+FILCOO='/mnt/c/Users/divya/Downloads/Lexar/DataFo                         
+   rDivya/meas_MID01415_FID95676_lb_RosetteSpinEc                         
+   ho_ek_v1a_lcm/15x17_ftSpec_smooth_lcm_out/15x1                         
+   7_ftSpec_smooth_lcm.coord'                                             
+FILTAB='/mnt/c/Users/divya/Downloads/Lexar/DataFo                         
+   rDivya/meas_MID01415_FID95676_lb_RosetteSpinEc                         
+   ho_ek_v1a_lcm/15x17_ftSpec_smooth_lcm_out/15x1                         
+   7_ftSpec_smooth_lcm.table'                                             
+FILPS='/mnt/c/Users/divya/Downloads/Lexar/DataFor                         
+   Divya/meas_MID01415_FID95676_lb_RosetteSpinEch                         
+   o_ek_v1a_lcm/15x17_ftSpec_smooth_lcm_out/15x17                         
+   _ftSpec_smooth_lcm.ps'                                                 
+FILRAW='/mnt/c/Users/divya/Downloads/Lexar/DataFo                         
+   rDivya/meas_MID01415_FID95676_lb_RosetteSpinEc                         
+   ho_ek_v1a_lcm/15x17_ftSpec_smooth_lcm'                                 
