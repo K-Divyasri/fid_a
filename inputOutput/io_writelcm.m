@@ -50,7 +50,7 @@ end
 seq='PRESS';
 
 
-RF=zeros(in.sz(in.dims.t),2);
+RF=zeros(in.sz(in.dims.f),2);
 RF(:,1)=real(in.fids(:,1));
 RF(:,2)=-imag(in.fids(:,1));
 

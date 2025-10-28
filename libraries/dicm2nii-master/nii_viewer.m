@@ -2896,7 +2896,7 @@ else
 end
 p.lb_step = stepSize(p.lb); 
 p.ub_step = stepSize(p.ub);
-p.alpha = 0.2; % opaque %%changed
+p.alpha = 0.5; % opaque %%changed
 p.smooth = false;
 p.interp = 1; % nearest
 p.volume = 1; % first volume

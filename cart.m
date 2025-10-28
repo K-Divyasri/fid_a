@@ -1,5 +1,6 @@
-fileName = 'data\meas_MID00519_FID124506_head_csi_fid_24x24_te2p3_tr750.dat';
-fileName_w = 'data\meas_MID00520_FID124507_head_csi_fid_24x24_te2p3_tr750_w.dat';
+
+fileName = 'C:\Users\divya\Downloads\linux-send\fid_a - Copy\data\meas_MID00519_FID124506_head_csi_fid_24x24_te2p3_tr750.dat';
+fileName_w = 'C:\Users\divya\Downloads\linux-send\fid_a - Copy\data\meas_MID00520_FID124507_head_csi_fid_24x24_te2p3_tr750_w.dat';
 kFile ='';
 [timeCombined_sh, timeCombined_sh_w] = load_twix2(fileName, fileName_w,kFile);
 
@@ -42,15 +43,15 @@ fprintf('Generating brain and lipid masks...\n');
 ftSpec_smooth.mask.brainmasks = brain_area_raw;
 ftSpec_smooth.mask.lipmasks = repmat(lipid_ring_raw, [1, 1, 5]);
 
-% lcmDir = cd;
-% 
-% fprintf('Writing LCModel files...\n');
-% io_CSIwritelcm(ftSpec_smooth_w, fullfile(lcmDir, 'lcm_ftSpec_smooth_w'));
-% io_CSIwritelcm(ftSpec_smooth, fullfile(lcmDir, 'lcm_ftSpec_smooth'));
-% 
-% fprintf('LCModel files saved to: %s\n', lcmDir);
-% fprintf('*** NOW RUN LCMODEL ON THESE FILES ***\n');
-% fprintf('After LCModel completes, continue to the next section...\n');
-% 
-% %% === PLOT SPECTRA ===
-% op_CSIPlot(ftSpec_smooth);
+lcmDir = cd;
+
+fprintf('Writing LCModel files...\n');
+io_CSIwritelcm(ftSpec_smooth_w, fullfile(lcmDir, 'lcm_ftSpec_smooth_w'));
+io_CSIwritelcm(ftSpec_smooth, fullfile(lcmDir, 'lcm_ftSpec_smooth'));
+
+fprintf('LCModel files saved to: %s\n', lcmDir);
+fprintf('*** NOW RUN LCMODEL ON THESE FILES ***\n');
+fprintf('After LCModel completes, continue to the next section...\n');
+
+%% === PLOT SPECTRA ===
+op_CSIPlot(ftSpec_smooth);

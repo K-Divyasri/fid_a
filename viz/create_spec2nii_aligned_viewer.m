@@ -157,10 +157,10 @@ function create_spec2nii_aligned_viewer(ftSpec, map, crlb, LW, SNR, t1_path, spe
                             'Position', [1060 850 40 25], 'BackgroundColor', 'k', 'ForegroundColor', 'w');
         
         % Status
-        uicontrol('Style', 'text', 'String', sprintf('Y OFFSET: %.0fmm', y_offset_mm), ...
-                  'Position', [1120 850 180 25], 'BackgroundColor', 'k', ...
-                  'ForegroundColor', 'yellow', 'FontSize', 10, 'FontWeight', 'bold');
-        
+        % uicontrol('Style', 'text', 'String', sprintf('Y OFFSET: %.0fmm', y_offset_mm), ...
+        %           'Position', [1120 850 180 25], 'BackgroundColor', 'k', ...
+        %           'ForegroundColor', 'yellow', 'FontSize', 10, 'FontWeight', 'bold');
+        % 
         % Main axes
         ax = axes('Position', [0.05 0.05 0.6 0.85], 'Color', 'k', 'XColor', 'w', 'YColor', 'w');
         
